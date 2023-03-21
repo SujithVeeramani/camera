@@ -2,7 +2,9 @@ import cv2
 import winsound
 import time
 
-cam = cv2.VideoCapture(0 and 1)
+
+
+#cam = cv2.VideoCapture(0 and 1)
 while cam.isOpened():
     ret, frame1 = cam.read()
     ret, frame2 = cam.read()
